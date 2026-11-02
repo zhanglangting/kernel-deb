@@ -2,7 +2,7 @@
 set -e  # 遇到错误立即退出
 
 # 克隆指定版本的内核源码
-git clone https://github.com/zhanglangting/linux.git --branch sm8150/$1.0-raphael --depth 1 linux
+git clone https://github.com/zhanglangting/linux.git --branch sm8150/$1.0 --depth 1 linux
 
 cd linux
 
